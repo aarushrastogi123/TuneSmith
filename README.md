@@ -70,4 +70,10 @@ TuneSmith/
 cd backend
 npm install
 
+## Create a .env file inside the backend directory:
+
+SPOTIFY_CLIENT_ID=your_client_id
+SPOTIFY_CLIENT_SECRET=your_client_secret
+SPOTIFY_REDIRECT_URI=http://localhost:5000/callback
+
 
